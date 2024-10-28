@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+  padding-top: 126px;
+}
+/* header */
+header {
+  position: fixed;
+  max-width: inherit;
+  width: inherit;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: 136px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 80px;
+  background-color: #372d23;
+}
+.header_ul {
+  display: flex;
+  gap: 48px;
+}
+.link {
+  width: 501px;
+  height: 32px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fcc21b;
+}
+li:first-child .link {
+  color: #ed6c30;
+}
+.fa-bag-shopping {
+  font-size: 30px;
+  color: #fcc21b;
+}
+.link:hover,
+.bag_hover:hover {
+  color: red;
+}
+/* section1 */
+.section1 {
+  height: 640px;
+  position: relative;
+}
+.section1_h1 {
+  width: 762px;
+  height: 208px;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  background-color: #fcc21b;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 4px 0px #00000080 inset;
+}
+.image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* section2 */
+.section2 {
+  display: flex;
+  width: calc(1200 / 1440 * 100%);
+  column-gap: 100px;
+  margin: 100px auto;
+}
+.image2 {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.section2_h3 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #372d23;
+}
+.section2_p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #c65c14;
+  margin-top: 40px;
+}
+/* footer */
+footer{
+  background-color: #372d23;
+  padding: 32px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_menu {
+  color: #fcc21b;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.right_nav_ul {
+  display: flex;
+  column-gap: 24px;
+}
+.right_nav_i {
+  font-size: 32px;
+  color: #fcc21b;
+}
+.hover:hover {
+  color: red;
+}
