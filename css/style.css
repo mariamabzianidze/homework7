@@ -12,6 +12,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   top: 0;
+  z-index: 1;
   height: 136px;
   display: flex;
   justify-content: space-between;
